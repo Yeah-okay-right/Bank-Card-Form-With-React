@@ -1,0 +1,53 @@
+.container {
+  gap: 300px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  color: #333;
+}
+input::placeholder {
+  color: rgba(51, 51, 51, 0.6);
+}
+#ccv2 {
+  width: 300px;
+}
+.expirationDate {
+  display: flex;
+  gap: 20px;
+}
+#expirationMonth {
+  width: 140px;
+  padding-right: 10px;
+}
+#expirationYear {
+  width: 140px;
+}
+.submit {
+  width: 300px;
+  background-color: #36cfc9;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.submit:hover {
+  background-color: #13c2c2;
+}
